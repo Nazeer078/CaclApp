@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <p id="outputText"></p>
+        <p id="outputT"></p>
+        
+        <script>
+            var someVariable = 100;
+            someFunction();
+            
+            var sameVariable = 200;
+            sameFunction();
+            
+            function someFunction(){
+                document.getElementById("outputText").innerHTML = someVariable;
+            }
+            
+            function sameFunction(){
+                document.getElementById("outputT").innerHTML = sameVariable;
+            }
+            
+        </script>
+    </body>
+</html> 
